@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
-- (void)test;
+
 @end
 
 @implementation ViewController
@@ -36,8 +36,5 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     return 70;
 }
-
-- (void)test {
-
-}
+//就加个试试。。。哈哈哈
 @end
